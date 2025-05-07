@@ -1,0 +1,14 @@
+,Unique Categories
+Label,2
+bwd_PSH_flag_count,114
+bwd_data_pkts_tot,129
+bwd_pkts_tot,144
+flow_ACK_flag_count,220
+flow_CWR_flag_count,3
+flow_ECE_flag_count,2
+flow_FIN_flag_count,37
+flow_RST_flag_count,11
+flow_SYN_flag_count,8
+fwd_PSH_flag_count,77
+fwd_data_pkts_tot,100
+fwd_pkts_tot,163

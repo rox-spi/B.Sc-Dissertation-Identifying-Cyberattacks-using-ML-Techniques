@@ -1,0 +1,88 @@
+Feature,Description
+uid,Unique identifier for each network flow.
+originh,Source host (IP address or hostname) initiating the connection.
+originp,Source port used by the sender.
+responh,Destination host (IP address or hostname) responding to the connection.
+responp,Destination port used by the receiver.
+flow_duration,Total duration of the network flow (in seconds).
+fwd_pkts_tot,Total number of packets sent from the source to the destination.
+bwd_pkts_tot,Total number of packets sent from the destination to the source.
+fwd_data_pkts_tot,Total number of packets carrying data sent from the source.
+bwd_data_pkts_tot,Total number of packets carrying data sent from the destination.
+fwd_pkts_per_sec,Rate of packets sent per second from the source.
+bwd_pkts_per_sec,Rate of packets sent per second from the destination.
+flow_pkts_per_sec,Overall rate of packets exchanged per second in the flow.
+down_up_ratio,Ratio of downloaded packets to uploaded packets (bwd/fwd).
+fwd_header_size_tot,Total size of headers in forwarded packets.
+fwd_header_size_min,Minimum header size in forwarded packets.
+fwd_header_size_max,Maximum header size in forwarded packets.
+bwd_header_size_tot,Total size of headers in backward packets.
+bwd_header_size_min,Minimum header size in backward packets.
+bwd_header_size_max,Maximum header size in backward packets.
+flow_FIN_flag_count,"Number of FIN (Finish) flags, indicating connection termination."
+flow_SYN_flag_count,"Number of SYN (Synchronization) flags, used to initiate TCP connections."
+flow_RST_flag_count,"Number of RST (Reset) flags, used to reset connections."
+fwd_PSH_flag_count,"Number of PSH (Push) flags in forwarded packets, indicating data should be pushed immediately."
+bwd_PSH_flag_count,Number of PSH (Push) flags in backward packets.
+flow_ACK_flag_count,"Number of ACK (Acknowledgment) flags, used to confirm receipt of packets."
+fwd_URG_flag_count,"Number of URG (Urgent) flags in forwarded packets, indicating urgent data."
+bwd_URG_flag_count,Number of URG (Urgent) flags in backward packets.
+flow_CWR_flag_count,"Number of CWR (Congestion Window Reduced) flags, related to TCP congestion control."
+flow_ECE_flag_count,"Number of ECE (Explicit Congestion Notification Echo) flags, indicating network congestion."
+fwd_pkts_payload.min,Minimum payload size in forwarded packets.
+fwd_pkts_payload.max,Maximum payload size in forwarded packets.
+fwd_pkts_payload.tot,Total payload size in forwarded packets.
+fwd_pkts_payload.avg,Average payload size in forwarded packets.
+fwd_pkts_payload.std,Standard deviation of payload size in forwarded packets.
+bwd_pkts_payload.min,Minimum payload size in backward packets.
+bwd_pkts_payload.max,Maximum payload size in backward packets.
+bwd_pkts_payload.tot,Total payload size in backward packets.
+bwd_pkts_payload.avg,Average payload size in backward packets.
+bwd_pkts_payload.std,Standard deviation of payload size in backward packets.
+flow_pkts_payload.min,Minimum payload size across all packets in the flow.
+flow_pkts_payload.max,Maximum payload size across all packets in the flow.
+flow_pkts_payload.tot,Total payload size across all packets in the flow.
+flow_pkts_payload.avg,Average payload size across all packets in the flow.
+flow_pkts_payload.std,Standard deviation of payload size across all packets in the flow.
+fwd_iat.min,Minimum inter-arrival time (IAT) between forwarded packets.
+fwd_iat.max,Maximum inter-arrival time between forwarded packets.
+fwd_iat.tot,Total inter-arrival time for forwarded packets.
+fwd_iat.avg,Average inter-arrival time for forwarded packets.
+fwd_iat.std,Standard deviation of inter-arrival time for forwarded packets.
+bwd_iat.min,Minimum inter-arrival time between backward packets.
+bwd_iat.max,Maximum inter-arrival time between backward packets.
+bwd_iat.tot,Total inter-arrival time for backward packets.
+bwd_iat.avg,Average inter-arrival time for backward packets.
+bwd_iat.std,Standard deviation of inter-arrival time for backward packets.
+flow_iat.min,Minimum inter-arrival time across all packets in the flow.
+flow_iat.max,Maximum inter-arrival time across all packets in the flow.
+flow_iat.tot,Total inter-arrival time across all packets in the flow.
+flow_iat.avg,Average inter-arrival time across all packets in the flow.
+flow_iat.std,Standard deviation of inter-arrival time across all packets in the flow.
+payload_bytes_per_second,Bytes of payload data transferred per second.
+fwd_subflow_pkts,Number of packets in the forward subflow.
+bwd_subflow_pkts,Number of packets in the backward subflow.
+fwd_subflow_bytes,Number of bytes in the forward subflow.
+bwd_subflow_bytes,Number of bytes in the backward subflow.
+fwd_bulk_bytes,Total bytes sent in bulk transfer mode (forward direction).
+bwd_bulk_bytes,Total bytes received in bulk transfer mode (backward direction).
+fwd_bulk_packets,Number of bulk packets sent (forward direction).
+bwd_bulk_packets,Number of bulk packets received (backward direction).
+fwd_bulk_rate,Bulk transfer rate for forwarded packets.
+bwd_bulk_rate,Bulk transfer rate for backward packets.
+active.min,Minimum time a flow was active.
+active.max,Maximum time a flow was active.
+active.tot,Total time a flow was active.
+active.avg,Average active time per session.
+active.std,Standard deviation of active time.
+idle.min,Minimum idle time (period of no packet exchange).
+idle.max,Maximum idle time.
+idle.tot,Total idle time.
+idle.avg,Average idle time per session.
+idle.std,Standard deviation of idle time.
+fwd_init_window_size,Initial TCP window size (forward direction).
+bwd_init_window_size,Initial TCP window size (backward direction).
+fwd_last_window_size,Last observed TCP window size (forward).
+bwd_last_window_size,Last observed TCP window size (backward).
+attack_category,Type of attack (if applicable).
+Label,"Binary label (0 = benign, 1 = attack)."

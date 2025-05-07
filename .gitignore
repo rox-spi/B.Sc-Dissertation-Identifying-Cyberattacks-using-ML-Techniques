@@ -1,0 +1,8 @@
+# Ignore large raw data files
+Parameter Optimisation/0. Raw Data/ALLFLOWMETER_HIKARI2022.csv
+Parameter Optimisation/1. Preprocessing/SMOTENC/X_train.csv
+Parameter Optimisation/1. Preprocessing/SMOTENC/X_val.csv
+Parameter Optimisation/1. Preprocessing/SMOTENC/train_data_with_smotenc_tracking.csv
+
+# Ignore Spyder Project Config folder
+.spyproject/

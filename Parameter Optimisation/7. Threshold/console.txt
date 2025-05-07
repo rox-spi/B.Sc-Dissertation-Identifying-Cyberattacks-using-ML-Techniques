@@ -1,0 +1,77 @@
+Epoch 1/70
+1075/1075 ━━━━━━━━━━━━━━━━━━━━ 10s 7ms/step - accuracy: 0.9808 - loss: 0.0658 - val_accuracy: 0.9903 - val_loss: 0.0376
+Epoch 2/70
+1075/1075 ━━━━━━━━━━━━━━━━━━━━ 8s 7ms/step - accuracy: 0.9902 - loss: 0.0363 - val_accuracy: 0.9904 - val_loss: 0.0356
+Epoch 3/70
+1075/1075 ━━━━━━━━━━━━━━━━━━━━ 7s 7ms/step - accuracy: 0.9906 - loss: 0.0350 - val_accuracy: 0.9902 - val_loss: 0.0354
+Epoch 4/70
+1075/1075 ━━━━━━━━━━━━━━━━━━━━ 8s 8ms/step - accuracy: 0.9905 - loss: 0.0354 - val_accuracy: 0.9904 - val_loss: 0.0352
+Epoch 5/70
+1075/1075 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.9907 - loss: 0.0345 - val_accuracy: 0.9905 - val_loss: 0.0349
+Epoch 6/70
+1075/1075 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.9907 - loss: 0.0344 - val_accuracy: 0.9905 - val_loss: 0.0349
+Epoch 7/70
+1075/1075 ━━━━━━━━━━━━━━━━━━━━ 10s 6ms/step - accuracy: 0.9908 - loss: 0.0341 - val_accuracy: 0.9905 - val_loss: 0.0351
+Epoch 8/70
+1075/1075 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.9907 - loss: 0.0348 - val_accuracy: 0.9902 - val_loss: 0.0353
+Epoch 9/70
+1075/1075 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.9906 - loss: 0.0344 - val_accuracy: 0.9904 - val_loss: 0.0352
+Epoch 10/70
+1075/1075 ━━━━━━━━━━━━━━━━━━━━ 11s 7ms/step - accuracy: 0.9908 - loss: 0.0338 - val_accuracy: 0.9904 - val_loss: 0.0350
+Epoch 11/70
+1075/1075 ━━━━━━━━━━━━━━━━━━━━ 10s 7ms/step - accuracy: 0.9906 - loss: 0.0346 - val_accuracy: 0.9903 - val_loss: 0.0354
+Epoch 12/70
+1075/1075 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.9908 - loss: 0.0340 - val_accuracy: 0.9906 - val_loss: 0.0345
+Epoch 13/70
+1075/1075 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.9909 - loss: 0.0338 - val_accuracy: 0.9902 - val_loss: 0.0393
+Epoch 14/70
+1075/1075 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.9906 - loss: 0.0351 - val_accuracy: 0.9906 - val_loss: 0.0345
+Epoch 15/70
+1075/1075 ━━━━━━━━━━━━━━━━━━━━ 11s 7ms/step - accuracy: 0.9909 - loss: 0.0337 - val_accuracy: 0.9904 - val_loss: 0.0351
+Epoch 16/70
+1075/1075 ━━━━━━━━━━━━━━━━━━━━ 8s 7ms/step - accuracy: 0.9908 - loss: 0.0344 - val_accuracy: 0.9905 - val_loss: 0.0350
+Epoch 17/70
+1075/1075 ━━━━━━━━━━━━━━━━━━━━ 9s 6ms/step - accuracy: 0.9908 - loss: 0.0339 - val_accuracy: 0.9904 - val_loss: 0.0353
+Epoch 18/70
+1075/1075 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.9909 - loss: 0.0338 - val_accuracy: 0.9904 - val_loss: 0.0357
+Epoch 19/70
+1075/1075 ━━━━━━━━━━━━━━━━━━━━ 12s 8ms/step - accuracy: 0.9903 - loss: 0.0357 - val_accuracy: 0.9904 - val_loss: 0.0353
+Epoch 20/70
+1075/1075 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.9908 - loss: 0.0341 - val_accuracy: 0.9903 - val_loss: 0.0354
+Epoch 21/70
+1075/1075 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.9907 - loss: 0.0343 - val_accuracy: 0.9906 - val_loss: 0.0348
+Epoch 22/70
+1075/1075 ━━━━━━━━━━━━━━━━━━━━ 7s 6ms/step - accuracy: 0.9909 - loss: 0.0338 - val_accuracy: 0.9901 - val_loss: 0.0373
+2150/2150 ━━━━━━━━━━━━━━━━━━━━ 3s 2ms/step   
+
+2025-03-29 15:00:59.430789: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+
+runcell('Search', 'D:/Dissertation/Parameter Optimisation/7. Threshold/Threshold Tuning.py')
+Threshold 0.10, F1-score: 0.9907, AUC-ROC: 0.9977, PR-AUC: 0.9975, Accuracy: 0.9906, Precision: 0.9815, Recall: 1.0000
+
+Threshold 0.20, F1-score: 0.9907, AUC-ROC: 0.9977, PR-AUC: 0.9975, Accuracy: 0.9906, Precision: 0.9815, Recall: 1.0000
+
+Threshold 0.30, F1-score: 0.9907, AUC-ROC: 0.9977, PR-AUC: 0.9975, Accuracy: 0.9906, Precision: 0.9816, Recall: 1.0000
+
+Threshold 0.40, F1-score: 0.9907, AUC-ROC: 0.9977, PR-AUC: 0.9975, Accuracy: 0.9906, Precision: 0.9816, Recall: 1.0000
+
+Threshold 0.50, F1-score: 0.9907, AUC-ROC: 0.9977, PR-AUC: 0.9975, Accuracy: 0.9906, Precision: 0.9816, Recall: 1.0000
+
+Threshold 0.60, F1-score: 0.9907, AUC-ROC: 0.9977, PR-AUC: 0.9975, Accuracy: 0.9906, Precision: 0.9816, Recall: 1.0000
+
+Threshold 0.70, F1-score: 0.9908, AUC-ROC: 0.9977, PR-AUC: 0.9975, Accuracy: 0.9907, Precision: 0.9817, Recall: 1.0000
+
+Threshold 0.80, F1-score: 0.9908, AUC-ROC: 0.9977, PR-AUC: 0.9975, Accuracy: 0.9907, Precision: 0.9818, Recall: 0.9999
+
+Threshold 0.90, F1-score: 0.9882, AUC-ROC: 0.9977, PR-AUC: 0.9975, Accuracy: 0.9881, Precision: 0.9823, Recall: 0.9941
+
+
+Best Threshold and Associated Metrics:
+Threshold    0.700000
+F1-Score     0.990765
+AUC-ROC      0.997684
+PR-AUC       0.997488
+Accuracy     0.990679
+Precision    0.981727
+Recall       0.999971
